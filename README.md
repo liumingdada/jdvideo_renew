@@ -17,24 +17,10 @@
 
 ## 📦 安装方法  
 
-### 方式一：直接使用可执行文件（推荐）  
-1. 从Release页面下载对应系统的可执行文件  
-2. 解压后直接运行`视频批量伪原创处理工具.exe`  
+### 直接生成可执行文件（推荐）  
+1. 下载配置好.py源文件   
+2. pyinstaller命令生成`视频批量伪原创处理工具.exe`  
 
-### 方式二：源码运行  
-1. 克隆仓库到本地  
-```bash  
-git clone https://github.com/yourusername/video-processing-tool.git  
-cd video-processing-tool  
-```  
-2. 安装依赖  
-```bash  
-pip install -r requirements.txt  
-```  
-3. 运行程序  
-```bash  
-python 视频批量伪原创-easy简版-界面.py  
-```  
 
 ### 依赖环境  
 - Python 3.8+  
@@ -46,7 +32,7 @@ python 视频批量伪原创-easy简版-界面.py
 
 ## 🚀 使用说明  
 1. **打开软件**：运行程序后，界面如下（可添加截图）：  
-   ![软件主界面](images/main_interface.png)  
+   ![软件主界面](京东视频伪原创工具.jpg)  
 
 2. **配置参数**：  
    - 选择**素材文件夹**：存放原始视频的目录（支持MP4格式）  
@@ -63,14 +49,9 @@ python 视频批量伪原创-easy简版-界面.py
 4. **查看日志**：处理过程和结果显示在日志区域，便于跟踪进度和排查问题  
 
 
-## 📊 处理效果示例  
-### 处理前 vs 处理后  
-| 原始视频 | 处理后视频 |  
-|----------|------------|  
-| ![原始视频](images/original_video.png) | ![处理后视频](images/processed_video.png) |  
-
+## 📊 处理示例  
 ### 标题生成效果  
-- 原始标题："2023新款夏季连衣裙 显瘦百搭 限时折扣"  
+- 原始标题："2025新款夏季连衣裙 显瘦百搭 限时折扣"  
 - 生成标题："夏季显瘦连衣裙爆款"  
 - 生成标题："百搭连衣裙时尚必备"  
 - 生成标题："新款连衣裙显瘦神器"  
@@ -111,14 +92,7 @@ python 视频批量伪原创-easy简版-界面.py
 
 ## 📧 联系方式  
 如有问题或定制需求，可通过以下方式联系：  
-- GitHub Issues：https://github.com/yourusername/video-processing-tool/issues  
+- VX:liumingdada
 
 
-## 📄 许可证  
-本项目遵循 [MIT License](LICENSE) 开源协议，欢迎贡献和二次开发。  
 
-
-### 使用提示  
-1. 在GitHub仓库中创建`images/`文件夹，将截图命名为`main_interface.png`、`original_video.png`等放入其中  
-2. 替换代码中的`yourusername`为你的GitHub用户名  
-3. 如需添加许可证，可在仓库根目录创建`LICENSE`文件
